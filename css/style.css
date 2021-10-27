@@ -1,0 +1,49 @@
+body{
+    background-color: #797D7F;
+    color: #FDFEFE;
+    font-size: 18px;
+
+}
+
+.headers
+{
+    font-size: 26px;
+    color: #E59866;
+    font-weight: bold;
+}
+
+.bigheader
+
+{
+    font-size: 32px;
+    color: #E59866;
+    font-weight: bold;
+}
+
+.highlight
+{
+    color: #E59866;
+    font-weight: bold;
+}
+a {
+	text-decoration: none;
+	color: #CB4335
+}
+
+.neighbors
+{
+    font-style: italic;
+}
+.firstcharacter {
+    color: #E59866;
+    float: left;
+    font-family: Georgia;
+    font-size: 20px;
+  
+  }
+  .lastcharacter {
+    color: #E59866;
+    font-family: Georgia;
+    font-size: 20px;
+  
+  }

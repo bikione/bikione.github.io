@@ -1,0 +1,104 @@
+body
+{
+    background-image: url("../images/turtleninja/background.png");
+    font-size: 8pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.header
+{}
+.bannerrepeated
+{
+    background-image: url("../images/turtleninja/bannerbg.png");
+    background-repeat: repeat-x;
+}
+.rottenrepeated
+{
+
+    background-image: url("../images/turtleninja/rbg.png");
+    background-repeat: repeat-x;
+}
+.banner
+{
+    text-align: center;
+    align-items: center;
+}
+.headertext
+{
+    font-weight: bold;
+    font-size: 24pt;
+    font-family: Tahoma, Verdana;
+    text-shadow: 2px 2px  #999999;
+    text-align: center;
+
+}
+.bigsection
+{
+    width: 800px;
+   
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 4px gray solid;
+    
+  
+    
+}
+.bigred
+{
+ font-size: 48pt;
+ color: red;
+ font-weight: bold;   
+ vertical-align: top;  
+
+}
+.firstsection
+{
+    float: left;
+    align-items: left;
+    text-align: left;
+    width: 66%;
+}
+.secondsection
+{
+    float: right;
+    align-items: right;
+    text-align: right;
+    width: 33%;
+    background-color: #A2B964;
+}
+.comments
+{}
+.commenticon
+{}
+.names
+{}
+.roles
+{}
+.movieinformationsub
+{}
+.movieinformation
+{
+
+}
+.doublelayoutone
+{
+    float: left;
+    text-align: left;
+    width: 47%;
+}
+.doublelayouttwo
+{
+    float: right;
+    text-align: right;
+    width: 47%;
+}
+.footer
+{
+    background-color: #A2B964;
+    text-align: center;
+    height: auto;
+    
+}
+

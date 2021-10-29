@@ -1,94 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Retrieve Grade</title>
-<link href="css/grades.css" type="text/css" rel="stylesheet">
+    <title>Retrieve Grade</title>
+    <link href="css/grades.css" type="text/css" rel="stylesheet">
 </head>
+
 <body>
 
     <div class="main-form">
         <p class="big-words header">Student's check grade form</p>
         <p class="big-words">Student Information:</p>
-       <div class="form-items">
+
 
         <form method="get" action="http://mumstudents.org/params.php">
-            <label> Student Name: </label>
-            <input type="text" name="studentName"> <br> <br>
-            <label> Student ID: </label>
-            <input type="text" name="studentID"> <br> <br>
-        </div> 
-        <br>
-           <label class="big-words">Student Entry: </label> <br>
-           <br> 
-           <div class="form-items">
-           <label for="entryyear">Year of Entry</label>
-            
-            <select id="entryyear" name="entryYear">
-                <option value="2015">2015</option>
-                <option value="2016">2016</option>
-                <option value="2017">2017</option>
-                <option value="2018">2018</option>
-                <option value="2019">2019</option>
-                <option value="2020">2020</option>
-                <option value="2021">2021</option>
-                
-
-
-            </select>
-
-           <p>Entry Date</p>
-           <input type="radio" id="entry1" name="studentEntry" value="January"> 
-            <label for="entry1">January</label> <br>
-
-            <input type="radio" id="entry2" name="studentEntry" value="May"> 
-            <label for="entry2">May</label><br>
-
-            <input type="radio" id="entry3" name="studentEntry" value="August"> 
-            <label for="entry3">August</label><br>
-
-            <input type="radio" id="entry4" name="studentEntry" value="December"> 
-            <label for="entry4">December</label><br> <br>
-
-
-        </div>
-        
-        <p class="big-words">Assignments:</p>
-        
-        <div class="form-items">
-
-            <label for="assign">Name: </label>
-            
-            <select id="assign" name="assignment">
-                <option value="Home Page">Home Page</option>
-                <option value="About Me">About Me</option>
-                <option value="Moview Review">Moview Review</option>
-                <option value="Grade Exercise">Grade Exercise</option>
-                <option value="HTML Form">HTML Form</option>
-                
-
-                
-                
-
-
-            </select>
-            <p>Are you not lying and really are looking up to only grades?</p>
-                <label for="confirm">If Yes, please check this box</label><input id="confirm" class="checkbox" type="checkbox" name="confirming" value="yes">
-            </div>
+            <div class="form-items">
+                <div>
+                    <label> Student Name: </label>
+                    <input type="text" name="studentName">
+                </div>
                 <br>
+                <div>
+                    <label> Student ID: </label>
+                    <input type="text" name="studentID">
+                </div>
+            </div>
             <br>
-            
-            
-            <input class="button-retrieve" type="submit" value="Get Grade!">
-        </form>
-       
+            <label class="big-words">Student Entry: </label> <br>
+            <br>
+            <div class="form-items">
+                <label for="entryyear">Year of Entry</label>
 
-        
+                <select id="entryyear" name="entryYear">
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+
+
+
+                </select>
+                <div>
+                    <p>Entry Date</p>
+                    <input type="radio" id="entry1" name="studentEntry" value="January">
+                    <label for="entry1">January</label>
+                </div>
+                <div>
+                    <input type="radio" id="entry2" name="studentEntry" value="May">
+                    <label for="entry2">May</label>
+                </div>
+                <div>
+                    <input type="radio" id="entry3" name="studentEntry" value="August">
+                    <label for="entry3">August</label>
+                </div>
+                <div>
+                    <input type="radio" id="entry4" name="studentEntry" value="December">
+                    <label for="entry4">December</label>
+                </div>
+
+            </div>
+
+            <p class="big-words">Assignments:</p>
+
+            <div class="form-items">
+
+                <label for="assign">Name: </label>
+
+                <select id="assign" name="assignment">
+                    <option value="Home Page">Home Page</option>
+                    <option value="About Me">About Me</option>
+                    <option value="Moview Review">Moview Review</option>
+                    <option value="Grade Exercise">Grade Exercise</option>
+                    <option value="HTML Form">HTML Form</option>
+
+
+
+
+
+
+                </select>
+                <p>Are you not lying and really are looking up to only grades?</p>
+                <label for="confirm">If Yes, please check this box</label><input id="confirm" class="checkbox"
+                    type="checkbox" name="confirming" value="yes">
+            </div>
+            <br>
+            <br>
+
+
+            <input class="button-retrieve" type="submit" value="Get Grade!">
+
+
+        </form>
     </div>
+
+
+
+
     <div class="validators">
-		<a href="https://validator.w3.org/check?uri=https://bikione.github.io/grades"><img src="images/turtleninja/w3c-html.png" alt="Valid HTML5" /></a> <br />
-		<a href="https://jigsaw.w3.org/css-validator/validator?uri=https://bikione.github.io/grades"><img src="images/turtleninja/w3c-css.png" alt="Valid CSS" /></a>
-	</div>
+        <a href="https://validator.w3.org/check?uri=https://bikione.github.io/grades"><img
+                src="images/turtleninja/w3c-html.png" alt="Valid HTML5" /></a> <br />
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://bikione.github.io/grades"><img
+                src="images/turtleninja/w3c-css.png" alt="Valid CSS" /></a>
+    </div>
 
 
 </body>
-</html> 
+
+</html>

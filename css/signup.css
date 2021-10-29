@@ -1,0 +1,80 @@
+body {
+    background-color: #F5F5F5;
+}
+
+.main-form {
+
+    width: 23%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10pt;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+
+
+
+.each-line {
+    display: flex;
+}
+
+.form-legend {
+    font-size: 9pt;
+    border: 1px black solid;
+    padding: 4px;
+    background-color: white;
+    box-shadow: 1px 1px 1px #000;
+
+
+
+}
+
+.set-fieldset {
+    background-color: #e0e1ff;
+    box-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+    border: solid black 1px;
+    border-top: grey;
+    border-left: grey;
+
+}
+
+.label-position {
+    width: 20%;
+}
+
+.input-position {
+    width: auto;
+}
+
+.label-words {
+    font-size: 10pt;
+    font-weight: bold;
+    width: 30%;
+}
+
+
+.validators {
+    position: fixed;
+    opacity: 0.5;
+    bottom: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.makered {
+    color: red;
+}
+
+.signup {
+    font-weight: bold;
+    font-size: 14pt;
+    background-color: #F5B7B1;
+}

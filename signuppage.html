@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
+</head>
+
+
+<body>
+    <form action="http://mumstudents.org/params.php">
+
+        <div class="main-form">
+            <fieldset class="set-fieldset">
+
+
+
+                <legend class="form-legend">New User Signup</legend>
+
+                <div class="container">
+                    <div class="each-line">
+                        <div class="label-words">
+                            <label for="name">Name: </label></div>
+                        <div class="input-position">
+                            <input class="inputs" type="text" size="16" name="name" id="name" maxlength="16">
+                        </div>
+                    </div>
+
+
+                    <div class="container">
+                        <div class="each-line">
+                            <label class="label-words">Gender:</label>
+
+
+                            <input class="inputs" type="radio" id="gender1" value="Male" name="gender">
+                            <label for="gender1">Male</label>
+
+                            <input type="radio" id="gender2" name="gender" value="Female" checked>
+                            <label for="gender2">Female</label>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="each-line">
+                            <label class="label-words" for="age">Age:</label>
+                            <input class="inputs" type="text" size="6" id="age" name="age" maxlength="2">
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="each-line">
+                            <label class="label-words" for="ptype">Personality type:</label>
+                            <input class="inputs" type="text" name="ptype" id="ptype" size="4" maxlength="4">
+                            <a href="http://www.humanmetrics.com/personality/type"> &nbsp;(<span class="makered">Don't
+                                    know
+                                    your
+                                    type?</span>)</a>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="each-line">
+                            <label class="label-words" for="fOS">Favorite OS:</label>
+                            <select class="inputs" name="fOS" id="fOS">
+                                <option value="Linux">Linux</option>
+                                <option value="Windows" selected>Windows</option>
+                                <option value="Mac OS X">Mac OS X</option>
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="each-line">
+                            <label class="label-words">
+                                Seeking age:
+                            </label>
+
+                            <input class="inputs" type="text" size="6" placeholder="min" name="min">
+                            to
+                            <input class="inputs" type="text" size="6" placeholder="max" name="max">
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="each-line">
+                            <input class="signup" type="submit" value="Sign Up">
+                        </div>
+                    </div>
+                </div>
+
+
+            </fieldset>
+        </div>
+    </form>
+    <div class="">
+        <a href="https://validator.w3.org/check?uri=https://bikione.github.io/signuppage"><img
+                src="images/turtleninja/w3c-html.png" alt="Valid HTML5" /></a> <br />
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://bikione.github.io/signuppage"><img
+                src="images/turtleninja/w3c-css.png" alt="Valid CSS" /></a>
+    </div>
+</body>
+
+</html>

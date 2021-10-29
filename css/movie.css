@@ -1,123 +1,139 @@
-body
-{
+
+body {
     background-image: url("../images/turtleninja/background.png");
     font-size: 8pt;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
+    font-family: Verdana, Tahoma, sans-serif;
     padding: 0;
-
+    margin: 0;
 }
-.header
-{}
-.bannerrepeated
-{
+
+.header {
     background-image: url("../images/turtleninja/bannerbg.png");
-    background-repeat: repeat-x;
+    display: block;
 }
-.rottenrepeated
-{
 
-    background-image: url("../images/turtleninja/rbg.png");
-    background-repeat: repeat-x;
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
-.banner
-{
+
+.title {
     text-align: center;
-    align-items: center;
-}
-.headertext
-{
-    font-weight: bold;
     font-size: 24pt;
-    font-family: Tahoma, Verdana;
-    text-shadow: 2px 2px  #999999;
-    text-align: center;
-
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
 }
-.bigsection
-{
+
+.content {
     width: 800px;
-   
-    margin: 0 auto;
+    border: 4px solid gray;
     border-radius: 20px;
-    border: 4px gray solid;
     overflow: hidden;
-  
-    
 }
-.bigred
-{
- font-size: 48pt;
- color: red;
- font-weight: bold;   
- vertical-align: top;  
 
-}
-.firstsection
-{
-    float: left;
-    align-items: left;
-    text-align: left;
+.section-left {
     width: 550px;
 }
-.secondsection
-{
-    float: right;
-    align-items: left;
-    text-align: left;
-    width: 250px;
-    background-color: #A2B964;
-  
-}
-.comments
-{}
-.commenticon
-{}
-.names
-{}
-.roles
-{}
-.movieinformationsub
-{}
-.movieinformation
-{
 
+.section-right {
+    float: right;
+    width: 250px;
 }
-.doublelayoutone
-{
+
+.green-bg {
+    background-color: #A2B964;
+}
+
+.overview {
+    margin: 0;
+    padding: 10pt;
+    font-size: 8pt;
+    font-family: Arial, sans-serif;
+}
+
+.first-child {
+    margin-top: 0;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10pt;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sub-header {
+    background-image: url("../images/turtleninja/rbg.png");
+    height: 83px;
+    position: relative;
+}
+
+.sub-header span {
+    height: 83px;
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    position: absolute;
+}
+
+.sub-header-img {
+    height: 83px;
+}
+
+.column {
     float: left;
+    width: 47%;
     margin: 2%;
-    width: 47%;
-    
 }
-.doublelayouttwo
-{
-    float: left;
-    margin:2%;
-    width: 47%;
-}
-.last
-{
+
+.last {
     margin-left: 0%;
 }
 
-.footer
-{
-    background-color: #A2B964;
-    text-align: center;
+.quote {
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: #E8DC9B;
+    padding: 8px;
+    min-height: 25px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 8pt;
+}
+
+.reviewer {
+    margin: 0;
+    margin-bottom: 20pt;
+    margin-top: 10pt;
+    min-height: 2em;
+}
+
+.page-info {
     clear: right;
-    margin: 0%;
+    margin: 0;
+    text-align: center;
     padding: 5px;
-    
-}
-.overview
-{
-    width: 100%;
-   
-
-}
-.sectionleft
-{
-    width: 550px;
 }
 
+.review-img {
+    float: left;
+    margin-right: 5px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.validators {
+    position: fixed;
+    opacity: 0.5;
+    bottom: 0;
+    right: 0;
+}

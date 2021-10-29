@@ -1,0 +1,34 @@
+body {
+    background-color: #F1FAFE;
+}
+
+.center-div {
+
+    border: 3px solid #D9D9FF;
+    height: 200px;
+    padding: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    border-radius: 10px;
+
+}
+
+.button-text {
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: auto;
+    position: relative;
+    background-color: #D9D9FF;
+    font-weight: bold;
+    font-size: 16pt;
+    border-radius: 10px;
+    box-shadow: 0;
+}
+
+.validators {
+    padding: 10px;
+    text-align: center;
+}

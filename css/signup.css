@@ -58,12 +58,7 @@ body {
 }
 
 
-.validators {
-    position: fixed;
-    opacity: 0.5;
-    bottom: 0;
-    right: 0;
-}
+
 
 a {
     text-decoration: none;

@@ -1,0 +1,52 @@
+body
+{
+    background-color: #FDF2E9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+
+}
+.main-form
+{
+    background-color: #F5CBA7;
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+    border-radius: 15px;
+    
+}
+.form-items
+{
+    background-color: #F0B27A; 
+    padding: 10px;
+    border-radius: 10px;
+}
+.button-retrieve
+{
+    border: 2px solid #F0B27A;
+    border-radius: 10px;
+    font-size: 14pt;
+ 
+
+}
+.big-words
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+}
+.header
+{
+    text-align: center;
+    font-size: 16pt;
+}
+.checkbox
+{
+    width: 20px;
+    height: 20px;
+}
+.validators {
+    position: fixed;
+    opacity: 0.5;
+    bottom: 0;
+    right: 0;
+}

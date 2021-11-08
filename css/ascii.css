@@ -31,6 +31,7 @@ select {
     color: black;
     font-size: 18px;
     font-weight: bold;
+
 }
 
 textarea {
@@ -54,6 +55,7 @@ fieldset {
     right: 0;
     bottom: 0;
 }
+
 
 a {
     display: block;

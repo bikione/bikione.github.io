@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>jQuery Quiz II</h1>
+
+    <dl>
+
+        <dt>
+            <b>1. Which, if any, of the following 3 code fragments are equivalent? Explain why they are different,
+                if
+                they are. Explain why they can have different parameters and be equivalent, if they are equivalent.</b>
+            <pre>
+                //code fragment 1
+            $("li").each(function(idx, e) {
+            $(e).css(“color”, “yellow”); });
+            //code fragment 2
+            $("li").each(function() {
+            $(this).css(“color”, “yellow”); });
+            //code fragment 3
+            $("li").each(function(idx) {
+            $(this).css(“color”, “yellow”); });
+            </pre>
+        </dt>
+
+        <dt>
+            <b> Answer:</b>
+            <pre>They are all equivalent
+                //code fragment 1
+                if each method has 2 arguments, first one would be the index, second would be denotes the element
+
+                //code fragment 2
+                We can write without any arguments, so instead of using arguments we use this to represent in the bracket
+
+
+                //code fragment 3
+                If we write with only 1 variable, it get only index , so we can use this instead of arguments.
+            </pre>
+        </dt>
+        <hr>
+        <dt>
+            <b>2. Write a jQuery expression to find all divs on a page that include an unordered list in them, and make
+                their text color be blue.
+            </b>
+            <pre>
+                &lt;div&gt;no ul here &lt;/div&gt;
+                &lt;div&gt;
+                This does contain a ul.
+                &lt;ul&gt;
+                &lt;li&gt;the first item&lt;/li&gt;
+                &lt;li&gt;the second item&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;script&gt;
+                &lt;!—INSERT YOUR JQUERY CODE HERE - - &gt;
+                &lt;/script&gt;
+                &lt;/body&gt;
+            </pre>
+
+        </dt>
+        <dt>
+            <b> Answer:</b>
+
+
+            <pre>
+                &lt;div&gt;no ul here &lt;/div&gt;
+                &lt;div&gt;
+                This does contain a ul.
+                &lt;ul id="check"&gt;
+                &lt;li&gt;the first item&lt;/li&gt;
+                &lt;li&gt;the second item&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;!script JQuery Code --&gt;
+                &lt;script&gt;
+                $(document).ready(function () {
+                var ulList = function () {
+                $("div").each(function () {
+                if ($.contains(this, document.getElementById("check"))) {
+                $(this).css("color", "blue")
+                }
+                });
+                };
+                ulList();
+                });
+                &lt;/script&gt;
+            
+           </pre>
+
+        </dt>
+        <hr>
+        <dt>
+            <b>3. Write jQuery code to append the following div element (and all of its contents) dynamically
+                to the body element.
+
+            </b>
+            <pre>
+                &lt;div&gt; &lt;h1&gt; JQuery Core &lt;/h1&gt;&lt;/div&gt;
+                HTML: &lt;!DOCTYPE html&gt;
+                &lt;html&gt;
+                &lt;head&gt;
+                &lt;meta charset = “utf-8”&gt;
+                &lt;title&gt;JS BIN&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </pre>
+            <b>Answer:</b>
+            <pre>
+                $(document).ready(function () {
+                    $("body").append("&lt;div&gt; &lt;h1&gt; JQuery Core &lt;/h1&gt;&lt;/div&gt;");
+                    });
+            </pre>
+        </dt>
+    </dl>
+
+</body>
+
+</html>

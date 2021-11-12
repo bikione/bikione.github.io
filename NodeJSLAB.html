@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NodeJSLAB</title>
+</head>
+
+<body>
+    <dl>
+
+        <dt>
+            <b>Exercise1</b>
+            <pre>var http = require('http');
+                http.createServer(function (req, res) {
+                 res.writeHead(200,
+                 {'Content-Type': 'text/html'});
+                    res.end('Hello World!');
+                }).listen(8080);</pre>
+        </dt>
+        <dt>
+            <hr>
+            <b>Exercise2</b>
+            <pre>var http = require('http');
+                var dt = require('./my_module');
+                http.createServer(function (req, res) {
+                    res.writeHead(200,
+                    {'Content-Type': 'text/html'});
+                    res.write("The date and time are currently: " + dt.myDate());
+                    res.end();
+                }).listen(8080); </pre>
+        </dt>
+        <hr>
+        <dt>
+            <b>Ecercise3</b>
+            <pre>
+                var http = require('http');
+                var url = require('url');
+                http.createServer(function (req, res) {
+                res.writeHead(200, {'Content-Type': 'text/html'});
+                var q = url.parse(req.url, true).query;
+                var txt = q.year + " " + q.month;
+                res.end(txt);
+                }).listen(8080); 
+
+
+            </pre>
+        </dt>
+        <hr>
+        <dt>
+            <b>Exercise4</b>
+            <form action="http://localhost:8080/add.js">
+                <div>Enter two number <br>
+                    <input type="text" name="first" /><br />
+                    <input type="text" name="second" /><br />
+                    <input type="submit" value="click" />
+                </div>
+            </form>
+        </dt>
+    </dl>
+
+</body>
+
+</html>

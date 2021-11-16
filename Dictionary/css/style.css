@@ -1,0 +1,41 @@
+body
+{
+    background-color: #F2F4F4;
+}
+.header-div
+{
+    background-color: #282A35;
+    border-radius: 5px;
+    color: white;
+    padding: 9px;
+    width: 100%;
+}
+.header-left
+{
+    float: left;
+    width: 70%;
+    font-size: 22px;
+    
+}
+.header-right
+{
+    display: inline;
+    width: 30%;
+
+}
+.container
+{
+    padding: 10px;
+    margin: 10px;
+    
+}
+.fields-def
+{
+ font-weight: bold;
+
+}
+.field-words
+{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
